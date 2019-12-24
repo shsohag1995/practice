@@ -1,0 +1,15 @@
+       .one_shop_slider .carousel-item img{
+            height: 200px;
+        }
+
+        .btn-app {
+            padding: 4px;
+            min-width: 20%;
+            height: 30px;
+            background-color: rgba( 114, 176, 149 ,0.3);
+            margin-top: 10px;
+        }
+        .btn-app:hover {
+            background: rgba( 114, 176, 149 ,0.7);
+            border-color: #aaa;
+        }

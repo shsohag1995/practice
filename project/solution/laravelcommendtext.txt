@@ -1,0 +1,12 @@
+1.project move  one pc to anather :
+
+if not composer install
+1.composer install
+
+then
+2.php artisan key:generate  
+3.php artisan cache:clear
+4.php artisan storage:link
+or
+4.php artisan migrate
+

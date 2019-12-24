@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Model\Shop;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ShopLike extends Model
+{
+	protected $table='shop_likes';
+    //protected $primaryKey='id';
+
+	 protected $fillable = [
+       'shop_id',
+        'user_id',
+        'confirmed',
+    ];
+    //
+}

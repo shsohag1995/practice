@@ -1,0 +1,611 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/adminlte.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <!-- Add Main content here -->
+  <div class="wrapper">
+
+      <!-- Navbar -->
+      <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+          <!-- Left navbar links -->
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+              </li>
+              <li class="nav-item d-none d-sm-inline-block">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item d-none d-sm-inline-block">
+                  <a href="#" class="nav-link">Contact</a>
+              </li>
+          </ul>
+
+          <!-- SEARCH FORM -->
+          <form class="form-inline ml-3">
+              <div class="input-group input-group-sm">
+                  <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                  <div class="input-group-append">
+                      <button class="btn btn-navbar" type="submit">
+                          <i class="fa fa-search"></i>
+                      </button>
+                  </div>
+              </div>
+          </form>
+
+          <!-- Right navbar links -->
+          <ul class="navbar-nav ml-auto">
+              <!-- Messages Dropdown Menu -->
+              <li class="nav-item dropdown">
+                  <a class="nav-link" data-toggle="dropdown" href="#">
+                      <i class="fa fa-comments-o"></i>
+                      <span class="badge badge-danger navbar-badge">3</span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                      <a href="#" class="dropdown-item">
+                          <!-- Message Start -->
+                          <div class="media">
+                              <img src="img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                              <div class="media-body">
+                                  <h3 class="dropdown-item-title">
+                                      Brad Diesel
+                                      <span class="float-right text-sm text-danger"><i class="fa fa-star"></i></span>
+                                  </h3>
+                                  <p class="text-sm">Call me whenever you can...</p>
+                                  <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+                              </div>
+                          </div>
+                          <!-- Message End -->
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">
+                          <!-- Message Start -->
+                          <div class="media">
+                              <img src="img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                              <div class="media-body">
+                                  <h3 class="dropdown-item-title">
+                                      John Pierce
+                                      <span class="float-right text-sm text-muted"><i class="fa fa-star"></i></span>
+                                  </h3>
+                                  <p class="text-sm">I got your message bro</p>
+                                  <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+                              </div>
+                          </div>
+                          <!-- Message End -->
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">
+                          <!-- Message Start -->
+                          <div class="media">
+                              <img src="img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                              <div class="media-body">
+                                  <h3 class="dropdown-item-title">
+                                      Nora Silvester
+                                      <span class="float-right text-sm text-warning"><i class="fa fa-star"></i></span>
+                                  </h3>
+                                  <p class="text-sm">The subject goes here</p>
+                                  <p class="text-sm text-muted"><i class="fa fa-clock-o mr-1"></i> 4 Hours Ago</p>
+                              </div>
+                          </div>
+                          <!-- Message End -->
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                  </div>
+              </li>
+              <!-- Notifications Dropdown Menu -->
+              <li class="nav-item dropdown">
+                  <a class="nav-link" data-toggle="dropdown" href="#">
+                      <i class="fa fa-bell-o"></i>
+                      <span class="badge badge-warning navbar-badge">15</span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                      <span class="dropdown-header">15 Notifications</span>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">
+                          <i class="fa fa-envelope mr-2"></i> 4 new messages
+                          <span class="float-right text-muted text-sm">3 mins</span>
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">
+                          <i class="fa fa-users mr-2"></i> 8 friend requests
+                          <span class="float-right text-muted text-sm">12 hours</span>
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">
+                          <i class="fa fa-file mr-2"></i> 3 new reports
+                          <span class="float-right text-muted text-sm">2 days</span>
+                      </a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#"><i
+                          class="fa fa-th-large"></i></a>
+              </li>
+          </ul>
+      </nav>
+      <!-- /.navbar -->
+
+      <!-- Main Sidebar Container -->
+      <aside class="main-sidebar sidebar-dark-primary elevation-4">
+          <!-- Brand Logo -->
+          <a href="#" class="brand-link">
+              <img src="img/AdminLTELogo.png" alt="My Logo" class="brand-image img-circle elevation-3"
+                   style="opacity: .8">
+              <span class="brand-text font-weight-light">My admin</span>
+          </a>
+
+          <!-- Sidebar -->
+          <div class="sidebar">
+              <!-- Sidebar user panel (optional) -->
+              <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                  <div class="image">
+                      <img src="img/avatar.png" class="img-circle elevation-2" alt="User Image">
+                  </div>
+                  <div class="info">
+                      <a href="#" class="d-block">Md. Julfikar ali</a>
+                  </div>
+              </div>
+
+              <!-- Sidebar Menu -->
+              <nav class="mt-2">
+                  <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                      <!-- Add icons to the links using the .nav-icon class
+                           with font-awesome or any other icon font library -->
+                      <li class="nav-item has-treeview">
+                          <a href="#" class="nav-link active">
+                              <i class="nav-icon fa fa-dashboard"></i>
+                              <p>
+                                  Home
+                                  <i class="right fa fa-angle-left"></i>
+                              </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link active">
+                                      <i class="fa fa-circle-o nav-icon"></i>
+                                      <p>Active Page</p>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link">
+                                      <i class="fa fa-circle-o nav-icon"></i>
+                                      <p>Inactive Page</p>
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+
+                      <li class="nav-item has-treeview ">
+                          <a href="#" class="nav-link">
+                              <i class="nav-icon fa fa-product-hunt"></i>
+                              <p>
+                                  All post
+                                  <i class="right fa fa-angle-left"></i>
+                              </p>
+                          </a>
+                          <ul class="nav nav-treeview">
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link active">
+                                      <i class="fa fa-circle-o nav-icon"></i>
+                                      <p>Personal</p>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link">
+                                      <i class="fa fa-arrow-circle-o-right nav-icon"></i>
+                                      <p>Local Post</p>
+                                  </a>
+                              </li>
+                          </ul>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">
+                              <i class="nav-icon fa fa-th"></i>
+                              <p>
+                                  List Of Users
+                              </p>
+                          </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">
+                              <i class="nav-icon fa fa-contao"></i>
+                              <p>
+                                 Contact Us
+                              </p>
+                          </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">
+                              <i class="nav-icon fa fa-cog"></i>
+                              <p>
+                                  Settings
+                              </p>
+                          </a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a href="#" class="nav-link">
+                              <i class="nav-icon fa fa-power-off"></i>
+                              <p>
+                                  Logout
+                              </p>
+                          </a>
+                      </li>
+
+
+
+                  </ul>
+              </nav>
+              <!-- /.sidebar-menu -->
+          </div>
+          <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+          <!-- Content Header (Page header) -->
+          <div class="content-header">
+              <div class="container-fluid">
+                  <div class="row mb-2">
+                      <div class="col-sm-6">
+                          <h1 class="m-0 text-dark">Welcome</h1>
+                      </div><!-- /.col -->
+                      <div class="col-sm-6">
+                          <ol class="breadcrumb float-sm-right">
+                              <li class="breadcrumb-item"><a href="#">Home</a></li>
+                              <li class="breadcrumb-item active">Admin content</li>
+                          </ol>
+                      </div><!-- /.col -->
+                  </div><!-- /.row -->
+              </div><!-- /.container-fluid -->
+          </div>
+          <!-- /.content-header -->
+
+          <!-- Main content -->
+          <div class="content">
+              <form role="form">
+    <div class="card-body">
+      <div class="card card-default"> <!-- card1 -->
+          <div class="card-header bg-primary">
+          <h3 class="card-title">গ্রাহকের তথ্য</h3>
+
+          <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            <!-- <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-remove"></i></button> -->
+          </div>
+          </div>
+          <!-- /.card-header -->
+        <div class="card-body">
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">গ্রাহকের নাম</label>
+              <input type="text" class="form-control" id="" placeholder="গ্রাহকের নাম">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">পিতার নাম</label>
+              <input type="text" class="form-control" id="" placeholder="পিতা/স্বামীর নাম">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">মাতার নাম</label>
+              <input type="text" class="form-control" id="" placeholder="মাতার নাম">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">জম্ম তারিখ</label>
+              <input type="date" class="form-control" id="" placeholder="জম্ম তারিখ">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">বয়স</label>
+              <input type="text" class="form-control" id="" placeholder="বয়স">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">জাতীয় পরিচয় পত্র নং</label>
+              <input type="text" class="form-control" id="" placeholder="জাতীয় পরিচয় পত্র নং">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">পেশা</label>
+              <input type="text" class="form-control" id="" placeholder="পেশা">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">মোবাইল নং</label>
+              <input type="text" class="form-control" id="" placeholder="মোবাইল নং">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="" class="font-weight-light">ই-মেইল</label>
+              <input type="text" class="form-control" id="" placeholder="ই-মেইল">
+            </div>
+          </div>
+            
+        
+        </div>
+      </div><!-- card1 end-->
+      <div class="card card-default"><!-- card2 -->
+          <div class="card-header bg-primary">
+          <h3 class="card-title">গ্রাহকের ঠিকানা</h3>
+
+          <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            <!-- <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-remove"></i></button> -->
+          </div>
+          </div>
+          <!-- /.card-header -->
+        <div class="card-body">
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">বর্তমান ঠিকানা</label>
+              <input type="text" class="form-control" id="" placeholder="বর্তমান ঠিকানা">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">পোষ্ট অফিস</label>
+              <input type="text" class="form-control" id="" placeholder="পোষ্ট অফিস">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">উপজেলা</label>
+              <input type="text" class="form-control" id="" placeholder="উপজেলা">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">জেলা</label>
+              <input type="text" class="form-control" id="" placeholder="জেলা">
+            </div>
+          </div>
+          <div class="card-body">
+            <input type="checkbox">বর্তমান ঠিকানা এবং স্থায়ী ঠিকানা একই
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">স্থায়ী ঠিকানা</label>
+              <input type="text" class="form-control" id="" placeholder="স্থায়ী ঠিকানা">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">পোষ্ট অফিস</label>
+              <input type="text" class="form-control" id="" placeholder="পোষ্ট অফিস">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">উপজেলা</label>
+              <input type="text" class="form-control" id="" placeholder="উপজেলা">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">জেলা</label>
+              <input type="text" class="form-control" id="" placeholder="জেলা">
+            </div>
+          </div>
+                
+        </div>
+      </div><!-- card2 end -->
+      <div class="card card-default"> <!-- card3 -->
+          <div class="card-header bg-primary">
+          <h3 class="card-title">লোন হিসাব খোলার তথ্য</h3>
+
+          <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            <!-- <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-remove"></i></button> -->
+          </div>
+          </div>
+          <!-- /.card-header -->
+        <div class="card-body">
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">লোন আই ডি নং</label>
+              <input type="text" class="form-control" id="" placeholder="ex:012...">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">সঞ্চয়(জমা)</label>
+              <input type="text" class="form-control" id="" placeholder="সঞ্চয়(জমা)">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">ঋণ সংখ্যা </label>
+              <input type="text" class="form-control" id="" placeholder="ঋণ সংখ্যা">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">লোনের পরিমান</label>
+              <input type="text" class="form-control" id="" placeholder="লোনের পরিমান">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">10%(সঞ্চয়ী)</label>
+              <input type="text" class="form-control" id="" placeholder="10%(সঞ্চয়ী)">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">পরিশোধের ধরন</label>
+              <input type="text" class="form-control" id="" placeholder="পরিশোধের ধরন">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">সার্ভিস চার্জ(%)</label>
+              <input type="text" class="form-control" id="" placeholder="মোট জমা">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">মোট পরিমান</label>
+              <input type="text" class="form-control" id="" placeholder="মোট পরিমান">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">কিস্তি সংখ্যা</label>
+              <input type="text" class="form-control" id="" placeholder="কিস্তি সংখ্যা">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">কিস্তি</label>
+              <input type="text" class="form-control" id="" placeholder="কিস্তি">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">সমিতি/গ্র“প:</label>
+              <input type="text" class="form-control" id="" placeholder="">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">খোলার তারিখ</label>
+              <input type="date" class="form-control" id="" placeholder="">
+            </div>
+          </div>
+          
+            
+        
+        </div>
+      </div><!-- card3 end-->
+      <div class="card card-default"> <!-- card4 -->
+          <div class="card-header bg-primary">
+          <h3 class="card-title">জামিনদার</h3>
+
+          <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            <!-- <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-remove"></i></button> -->
+          </div>
+          </div>
+          <!-- /.card-header -->
+        <div class="card-body pt-0">
+            <center><h3 class="p-4 card-title">জামিনদার ১ তথ্য</h3></center>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">হিসাব নং</label>
+              <input type="text" class="form-control" id="" placeholder="এম ও কোড">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">জামিনদারের নাম</label>
+              <input type="text" class="form-control" id="" placeholder="নাম">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">বর্তমান ঠিকানা</label>
+              <input type="text" class="form-control" id="" placeholder="পি ডি এম ই কোড">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">মোবাইল নং</label>
+              <input type="text" class="form-control" id="" placeholder="মোবাইল নং">
+            </div>
+          </div>
+            <center><h3 class="p-4 card-title">জামিনদার 2 তথ্য</h3></center>
+          <div class="row">
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">হিসাব নং</label>
+              <input type="text" class="form-control" id="" placeholder="এম ও কোড">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">জামিনদারের নাম</label>
+              <input type="text" class="form-control" id="" placeholder="নাম">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">বর্তমান ঠিকানা</label>
+              <input type="text" class="form-control" id="" placeholder="পি ডি এম ই কোড">
+            </div>
+            <div class="form-group col-md-3">
+              <label for="" class="font-weight-light">মোবাইল নং</label>
+              <input type="text" class="form-control" id="" placeholder="মোবাইল নং">
+            </div>
+          </div>
+          
+            
+        
+        </div>
+      </div><!-- card4 end-->
+      <div class="card card-default"> <!-- card5 -->
+          <div class="card-header bg-primary">
+          <h3 class="card-title">ছবি এবং স্বাক্ষর</h3>
+
+          <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            <!-- <button type="button" class="btn btn-tool" data-widget="remove"><i class="fa fa-remove"></i></button> -->
+          </div>
+          </div>
+          <!-- /.card-header -->
+        <div class="card-body">
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">গ্রাহকের ছবি</label>
+              <input type="file" class="form-control" id="" placeholder="">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="" class="font-weight-light">গ্রাহকের স্বাক্ষর</label>
+              <input type="file" class="form-control" id="" placeholder="">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="form-group col-md-4">
+              <button type="button" class="btn btn-block btn-outline-success">সংরক্ষন করুন</button>
+              
+            </div>
+            
+            <div class="form-group col-md-4">
+              <button type="button" class="btn btn-block btn-outline-primary">প্রিন্ট</button>
+            </div>
+            <div class="form-group col-md-4">
+              <button type="button" class="btn btn-block btn-outline-danger">বাতিল করুন</button>
+            </div>
+          </div>
+          
+        </div>
+      </div><!-- card5 end-->
+      
+        
+      </div><!-- card5 end--> 
+    </div><!-- /.card-body -->
+  </form> 
+
+          </div>
+          <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
+      <!-- Control Sidebar -->
+      <aside class="control-sidebar control-sidebar-dark">
+          <!-- Control sidebar content goes here -->
+          <div class="p-3">
+              <h5>Title</h5>
+              <p>Sidebar content</p>
+          </div>
+      </aside>
+      <!-- /.control-sidebar -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer">
+          <!-- To the right -->
+          <div class="float-right d-none d-sm-inline">
+              Anything you want
+          </div>
+          <!-- Default to the left -->
+          <strong>Copyright &copy; 2014-2018 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+      </footer>
+  </div>
+  <!-- ./wrapper -->
+
+
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+
+        <!--New js file include-->
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/adminlte.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
